@@ -12,4 +12,6 @@ Static pages, JavaScript only!!!
 
 ## demo
 
+You can even show it in your GitHub page!!!
+
 https://rcqed.github.io/rss-parser-webview/
