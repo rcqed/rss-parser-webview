@@ -8,15 +8,13 @@
         body {
             max-width: 50rem;
             margin: 0 auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             padding: 0 1.5rem;
         }
     </style>
-    <script src="https://unpkg.com/rss-parser@3.13.0/dist/rss-parser.min.js"></script>
+    <script src="./_js/rss-parser.min.js"></script>
 </head>
 
 <body>
-    <h1>RSS</h1>
     <div id="rssFeed"></div>
 
     <script>
@@ -39,7 +37,8 @@
                         return rssParser.parseString(text).then(feed => {
                             return feed.items.map(item => ({
                                 ...item,
-                                source: feedTitle
+                                source: feedTitle,
+                                pubDate: new Date(item.pubDate).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }) // Convert pubDate to CST
                             }));
                         });
                     })
