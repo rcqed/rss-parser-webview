@@ -11,7 +11,7 @@
             padding: 0 1.5rem;
         }
     </style>
-    <script src="./rss-parser.min.js"></script>
+    <script src="./_js/rss-parser.min.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 
     <script>
 	
-	// http://127.0.0.1/index.html/?opml=./RSS.opml
+	// http://127.0.0.1/index.html?opml=./RSS.opml
         const urlParams = new URLSearchParams(window.location.search);
         const OPML_FILE_PATH = urlParams.get('opml');
 
