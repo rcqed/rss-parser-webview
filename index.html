@@ -11,15 +11,19 @@
             padding: 0 1.5rem;
         }
     </style>
-    <script src="./rss-parser.min.js"></script>
+    <script src="./_js/rss-parser.min.js"></script>
 </head>
 
 <body>
     <div id="rssFeed"></div>
 
     <script>
+	
+	// http://127.0.0.1/index.html/?opml=./RSS.opml
+        const urlParams = new URLSearchParams(window.location.search);
+        const OPML_FILE_PATH = urlParams.get('opml');
+
         const CORS_PROXY = 'https://api.allorigins.win/raw?url=';
-        const OPML_FILE_PATH = './RSS.opml';
 
         const parser = new DOMParser();
         const rssParser = new RSSParser();
