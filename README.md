@@ -16,4 +16,4 @@ You can even show it in your GitHub page!!!
 
 https://rcqed.github.io/rss-parser-webview/?opml=./RSS.opml
 
-https://rcqed.github.io/rss-parser-webview/rss-view.html#https://diygod.cc/feed
+https://rcqed.github.io/rss-parser-webview/rss-view.html#https://api.allorigins.win/raw?url=https://diygod.cc/feed
