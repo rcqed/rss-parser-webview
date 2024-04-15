@@ -14,4 +14,4 @@ Static pages, JavaScript only!!!
 
 You can even show it in your GitHub page!!!
 
-https://rcqed.github.io/rss-parser-webview/
+https://rcqed.github.io/rss-parser-webview/?opml=./RSS.opml
