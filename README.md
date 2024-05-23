@@ -7,7 +7,7 @@ Static pages, JavaScript only!!!
 ## thanks:
 
 - [rss-parser](https://github.com/rbren/rss-parser)
-- [allOrigins](https://github.com/gnuns/allOrigins)
+- [noCORS](https://github.com/rcqed/noCORS)
 - [RSSHub](https://github.com/DIYgod/RSSHub)
 
 ## demo
